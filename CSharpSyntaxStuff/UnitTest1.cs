@@ -1,9 +1,7 @@
-namespace CSharpSyntaxStuff;
 
+namespace CSharpSyntaxStuff;
 public class UnitTest1
 {
-
-
 
     [Fact]
     public void Test1()
@@ -12,11 +10,9 @@ public class UnitTest1
         int a = 10, b = 20, answer;
         // When (Act)
         answer = a + b; // What we are testing.
-        // Then (Assert)
+                        // Then (Assert)
         Assert.Equal(30, answer);
     }
-
-
 
     [Theory]
     [InlineData(10, 20, 30)]
@@ -27,8 +23,7 @@ public class UnitTest1
         int answer = a + b;
         Assert.Equal(expected, answer);
 
+
     }
-
-
 
 }

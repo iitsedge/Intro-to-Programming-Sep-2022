@@ -22,11 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\ITUStudent\dev\Intro-to-Programming-Sep-2022\CSharpSyntaxStuff\.editorconfig" />
+    <EditorConfigFiles Remove="C:\Users\ITUStudent\dev\intro-to-programming-sept-2022\CSharpSyntaxStuff\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\ITUStudent\dev\Intro-to-Programming-Sep-2022\CSharpSyntaxStuff\.editorconfig" />
+    <None Include="C:\Users\ITUStudent\dev\intro-to-programming-sept-2022\CSharpSyntaxStuff\.editorconfig" />
   </ItemGroup>
 
 </Project>
