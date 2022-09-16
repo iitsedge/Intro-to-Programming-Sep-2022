@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -26,9 +26,5 @@
   <ItemGroup>
     <ProjectReference Include="..\Banking.Api\Banking.Api.csproj" />
   </ItemGroup>
-	<ItemGroup>
-		<InternalsVisibleTo Include="Banking.IntegrationTests"/>
-	</ItemGroup>
 
 </Project>
-

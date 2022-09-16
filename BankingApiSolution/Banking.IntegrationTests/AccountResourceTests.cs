@@ -1,13 +1,11 @@
-﻿using Alba;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+
 
 namespace Banking.IntegrationTests;
 public class AccountResourceTests
 {
+
     [Fact]
     public async Task AccountResourcesReturnsAnOk()
     {
@@ -20,3 +18,4 @@ public class AccountResourceTests
         });
     }
 }
+// GET /accounts/898989898/balance
