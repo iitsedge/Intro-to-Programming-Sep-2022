@@ -1,4 +1,5 @@
 using Banking.Api.Adapters;
+using Banking.Api.Controllers;
 using Banking.Api.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -36,3 +37,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();// this is when the api is up and running.
+
+
