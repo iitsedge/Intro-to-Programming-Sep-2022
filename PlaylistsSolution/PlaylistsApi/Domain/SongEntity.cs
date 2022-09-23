@@ -9,4 +9,6 @@ public class SongEntity
 
     public DateTime Created { get; set; }
 
+    public string? AddedFrom { get; set; }
+
 }
